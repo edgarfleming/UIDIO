@@ -1,0 +1,8 @@
+.is-frontend .uidio-navbar {
+  position: fixed !important;
+  transition: ease transform 0.3s !important;
+}
+
+.uidio-navbar.hide-navbar {
+  transform: translateY(-100%) !important;
+}
